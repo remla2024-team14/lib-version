@@ -8,7 +8,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Team 14',
-    author_email='your.email@example.com',
+    author_email='justinluu2000@gmail.com',
     url='https://github.com/remla2024-team14/lib-version',
     install_requires=[
         'flask',  'flask-cors'
