@@ -11,9 +11,7 @@ setup(
     author='Team 14',
     author_email='justinluu2000@gmail.com',
     url='https://github.com/remla2024-team14/lib-version',
-    install_requires=[
-        'importlib'
-    ],
+    install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

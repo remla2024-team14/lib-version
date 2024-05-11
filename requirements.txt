@@ -1,1 +1,1 @@
-importlib-metadata
+importlib
