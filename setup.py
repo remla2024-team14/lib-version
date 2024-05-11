@@ -2,7 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='team-14-lib-version',
-    version='0.1.0',
+    use_scm_version={'root': '.', 'relative_to': __file__, 'write_to': 'src/version.py',
+                     },
+    setup_requires=['setuptools_scm'],
     packages=find_packages(),
     description='version aware library',
     long_description=open('README.md').read(),

@@ -4,3 +4,5 @@ requires = [
     "wheel",
     "setuptools_scm>=8"
 ]
+[tool.setuptools_scm]
+write_to = "src/version.py"
