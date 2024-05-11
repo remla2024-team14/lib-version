@@ -12,7 +12,7 @@ setup(
     author_email='justinluu2000@gmail.com',
     url='https://github.com/remla2024-team14/lib-version',
     install_requires=[
-        'flask',  'flask-cors'
+        'importlib'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',

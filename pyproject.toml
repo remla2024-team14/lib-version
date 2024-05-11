@@ -5,4 +5,4 @@ requires = [
     "setuptools_scm>=8"
 ]
 [tool.setuptools_scm]
-write_to = "lib-version/version.py"
+write_to = "libversion/version.py"
