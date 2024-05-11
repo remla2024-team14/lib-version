@@ -16,10 +16,14 @@ setup(
         'flask',  'flask-cors'
     ],
     classifiers=[
-        'Programming Language :: Python :: 3',
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
-    extras_require={'dev': ['twine>=4.0.2']},
-    python_requires='>=3.8',
+    python_requires='>=3.7',
 )
